@@ -1,0 +1,137 @@
+body{
+  background-color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+.right{
+  float: right;
+}
+
+nav {
+    background: orange;
+    height: 60px;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+nav ul {
+  position: absolute;
+  right: 25px;
+  top: 5px;
+}
+nav ul li {
+  display: inline;
+  margin: 0 auto;
+  padding: 30px;
+
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+nav > a {
+      color: #ffffff;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 26px;
+      font-weight: bolder;
+      left: 25px;
+      position: absolute;
+      text-align: left;
+      text-decoration:none;
+      left: 50px;
+      top: 10px;
+    }
+
+nav span{
+  font-style: normal;
+  font-weight:0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+nav img {
+  width: 30px;
+  top: 18px;
+  left: 15px;
+  position: absolute;
+}
+input {
+  float: right;
+  background-color: transparent;
+  border: none;
+  background-color: lightgrey;
+  width: 150px;
+  height: 30px;
+  color: white;
+  padding-left: 15px;
+  margin-right: 20px;
+  position: absolute;
+  top: 65px;
+  right: 10px;
+}
+header img{
+  left:150px;
+  top: 175px;
+  position: absolute;
+}
+header h3 {
+  color: orange;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: lighter;
+  font-size: 44px;
+}
+
+header i {
+  position: absolute;
+  right: 40px;
+  top: 73px;
+  color: white;
+}
+.text {
+  position: absolute;
+  top: 200px;
+  left: 650px;
+  text-align: left;
+  width: 500px;
+}
+
+#one {
+  background-color: orange;
+  border: none;
+  width: 200px;
+  height: 40px;
+  color: white;
+  margin-right: 30px;
+  margin-left: 5px;
+}
+#two {
+  background-color: turquoise;
+  border: none;
+  width: 200px;
+  height: 40px;
+  color: white;
+}
+
+footer{
+  background: turquoise;
+  height: 60px;
+  left: 0;
+  position: fixed;
+  right: 0;
+  bottom:  0;
+}
+
+.orange {
+  font-weight: bold;
+  font-weight:800;
+  ont-family: 'Open Sans', sans-serif;
+}
+.web {
+  color: turquoise;
+  font-weight:800;
+  ont-family: 'Open Sans', sans-serif;
+}
+nav sup {
+  font-size: 10px;
+}
+header sup {
+  font-size: 20px;
+}
